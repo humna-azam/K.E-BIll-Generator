@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-Electric Bill Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>KE Bill Calculator</h2>
+        
+        <input type="text" id="custName" placeholder="Customer Name">
+        <input type="number" id="units" placeholder="Total Units Consumed">
+        
+        <button onclick="calculateBill()">Calculate Bill</button>
+
+        <div id="billResult" class="bill-box">
+            <!-- Bill details yahan ayengi -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
